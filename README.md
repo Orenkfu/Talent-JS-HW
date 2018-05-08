@@ -13,8 +13,8 @@ Angular project is a bit different from HW requirements, though it is connected 
 
 ```
 ```
-Using Bootstrap and ng routing service, you can navigate between different components, where you can browse a table containing data
-obtained from API.
+Using Bootstrap and ng router module, you can navigate between different components,
+where you can browse a table containing data obtained from API.
 ```
 ```
 Using a reusable pagination component, you can view the different pages of "users" provided by API.
