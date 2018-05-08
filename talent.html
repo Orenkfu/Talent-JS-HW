@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Talent</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div style="padding-bottom: 40px">
+
+            <select name="pager" id="pager">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <button class="btn btn-info" onclick="startPromiseChain()">Get</button>
+            <button class="btn btn-danger" onclick="reset()">Reset</button>
+        </div>
+
+        <table id="userTable" class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Avatar</th>
+                </tr>
+            </thead>
+        </table>
+
+        <script src="talent.js"></script>
+
+        <div style="padding-top: 40px" id="picture">
+            <h3>Requested image will be displayed upon clicking the GET button. </h3>
+
+        </div>
+    </div>
+</body>
+
+</html>
