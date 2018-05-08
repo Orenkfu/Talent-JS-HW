@@ -42,14 +42,6 @@ View table of clients received from API.
 View "avatar"(image) of first member of the user array received from API.
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 
 ## Authors
 
