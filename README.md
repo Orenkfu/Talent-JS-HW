@@ -10,13 +10,13 @@ A simple get application showcasing the use of JS Promise (and the flaws of usin
 
 ```
 Select a page from the select dropdown.
-```
+
 Click the "Get" button to send a Get request to the server, with the page selected in the previous step.
-```
+
 View table of clients received from API.
-```
+
 View "avatar"(image) of first member of the user array received from API.
-```
+
 ```
 
 ## Author
